@@ -1,0 +1,63 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./lib/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400 800;
+    font-display: swap;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey-200: #d8d8d8;
+    --grey-300: #c5c6ce;
+    --navy-600: #5E607A;
+    --navy-950: #00001A;
+    --gold-400: #E9AA52;
+    --red-500: #F15D51;
+
+    --font: 'Inter', sans-serif;
+    --w-regular: 400;
+    --w-bold: 700;
+    --w-extrabold: 800;
+
+    --font-xxxl: calc(56 / 16 * 1rem);
+    --font-xxl: calc(40 / 16 * 1rem);
+    --font-xl: calc(32 / 16 * 1rem);
+    --font-lg: calc(20 / 16 * 1rem);
+    --font-md: calc(18 / 16 * 1rem);
+    --font-sm: calc(15 / 16 * 1rem);
+    --font-xs: calc(14 / 16 * 1rem);
+
+    --line-height-xxxl: calc(64 / 16 * 1rem);
+    --line-height-xxl: calc(40 / 16 * 1rem);
+    --line-height-xl: calc(32 / 16 * 1rem);
+    --line-height-lg: calc(26 / 16 * 1rem);
+    --line-height-md: calc(24 / 16 * 1rem);
+
+    --letter-spacing-wide: calc(4.38 / 16 * 1rem);
+
+    --s-100: calc(8 / 16 * 1rem);
+    --s-200: calc(16 / 16 * 1rem);
+    --s-300: calc(24 / 16 * 1rem);
+    --s-400: calc(32 / 16 * 1rem);
+    --s-500: calc(40 / 16 * 1rem);
+    --s-600: calc(48 / 16 * 1rem);
+    --s-700: calc(56 / 16 * 1rem);
+    --s-800: calc(64 / 16 * 1rem);
+    --s-900: calc(72 / 16 * 1rem);
+    --s-1000: calc(80 / 16 * 1rem);
+    --s-1100: calc(88 / 16 * 1rem);
+}
+
+body {
+    font-family: var(--font);
+    color: var(--navy-600);
+    background-color: var(--white);
+}
