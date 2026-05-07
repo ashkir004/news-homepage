@@ -309,7 +309,7 @@ main {
 		gap: var(--s-800);
 		justify-content: center;
 		align-items: center;
-		padding: var(--s-600) var(--s-800) var(--s-800);
+		padding: var(--s-600) var(--s-200) var(--s-800);
 	}
 
 	header {
@@ -321,6 +321,11 @@ main {
 		grid-template-columns: 1fr 1fr 1fr;
 		column-gap: var(--s-400);
 	}
+
+    header, main {
+        width: 100%;
+        max-width: 73rem;
+    }
 
 	.article-image {
 		justify-self: stretch;
