@@ -259,7 +259,7 @@ main {
 }
 
 .article-list-item img {
-	max-width: var(--s-1200);
+	max-width: var(--s-1300);
 	height: auto;
     width: 100%;
 	grid-column: 1 / 2;
@@ -360,6 +360,7 @@ main {
 	.featured-articles {
 		grid-column: 3 / 4;
 		grid-row: 1 / 2;
+        justify-content: space-around;
 	}
 
 	.articles-list {
