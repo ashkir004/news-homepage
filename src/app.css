@@ -253,7 +253,7 @@ main {
 
 .articles-list .article-list-item {
 	display: grid;
-	grid-template-columns: var(--s-1200) auto;
+	grid-template-columns: var(--s-1300) auto;
 	row-gap: var(--s-100);
 	column-gap: var(--s-300);
 }
